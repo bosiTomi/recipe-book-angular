@@ -1,11 +1,7 @@
+<div class="recipe-card-wrapper">
 <div class="row">
     <div class="col-xs-12">
-        <img [src]="recipe.imagePath" alt="{{ recipe.name }}" class="img-responsive" style="max-height: 300px;">
-    </div>
-</div>
-<div class="row">
-    <div class="col-xs-12">
-        <h1>{{ recipe.name }}</h1>
+        <img [src]="recipe.imagePath" alt="{{ recipe.name }}" class="img-responsive">
     </div>
 </div>
 <hr>
@@ -25,8 +21,13 @@
         </div>
     </div>
 </div>
+<div class="row recipe-name">
+    <div class="col-xs-12">
+        <h1>{{ recipe.name }}</h1>
+    </div>
+</div>
 <hr>
-<div class="row">
+<div class="row recipe-description">
     <div class="col-xs-12">
         {{ recipe.description }}
     </div>
@@ -40,4 +41,5 @@
             </li>
         </ul>
     </div>
+</div>
 </div>
