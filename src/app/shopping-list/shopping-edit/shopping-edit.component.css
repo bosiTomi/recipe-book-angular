@@ -1,3 +1,13 @@
 button {
     margin-right: 5px;
 }
+
+label {
+    color: #e2e2e2;
+    font-size: 16px;
+}
+
+.btn[disabled]:hover {
+    background-color: #7f7c77;
+    border-color: black;
+}
