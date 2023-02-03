@@ -1,0 +1,15 @@
+.list-group-item {
+    background-color: rgb(171 171 171);
+}
+
+.list-group-item.active {
+    background-color: #616160;
+}
+
+.list-group-item:hover {
+    background-color: #7b7b7b;
+}
+
+.list-group-item.active:hover {
+    background-color: #7b7b7b;
+}
