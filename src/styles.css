@@ -1,1 +1,56 @@
-/* You can add global styles to this file, and also import other style files */
+body {
+    background-color: #FCFCFC;
+    background-image: url(./assets/images/banner.png);
+    background-size: cover;
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+}
+
+hr {
+    border: 0;
+    height: 1.5px;
+    background-color: black;
+    background-image: linear-gradient(to right, rgb(136, 133, 133), white, rgb(136, 133, 133));
+}
+
+
+.btn-primary {
+    color: #fff;
+    background-color: #7f7c77;
+    border-color: #7f7c77;
+}
+
+.btn-primary:hover {
+    color: rgb(247 247 247);;
+    background-color: #525a52;
+    border-color: #525a52;
+}
+
+.btn-primary:focus {
+    color: rgb(247 247 247);;
+    background-color: #525a52;
+    border-color: #525a52;
+}
+
+.btn-primary[disabled]:hover {
+    background-color: #7f7c77;
+    border-color: #7f7c77;
+}
+
+.btn-success {
+    color: rgb(247 247 247);
+    background-color: #7f7c77;
+    border-color: #7f7c77;
+}
+
+.btn-success:hover {
+    color: rgb(247 247 247);;
+    background-color: #525a52;
+    border-color: #525a52;
+}
+
+.btn-success:focus {
+    color: rgb(247 247 247);;
+    background-color: #525a52;
+    border-color: #525a52;
+}
