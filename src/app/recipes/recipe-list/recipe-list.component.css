@@ -1,0 +1,17 @@
+.btn-success {
+    color: rgb(247 247 247);
+    background-color: #7f7c77;
+    border-color: #7f7c77;
+}
+
+.btn-success:hover {
+    color: rgb(247 247 247);;
+    background-color: #525a52;
+    border-color: #525a52;
+}
+
+.btn-success:focus {
+    color: rgb(247 247 247);;
+    background-color: #525a52;
+    border-color: #525a52;
+}
